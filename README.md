@@ -125,9 +125,3 @@ Robot tự cân bằng là một hệ thống điều khiển **ngược con l�
 - **Không thấy góc/MPU lỗi** → kiểm tra SDA/SCL, địa chỉ I2C, dây VCC 3.3V.  
 - **Động cơ không chạy** → kiểm tra jumper ENA/ENB (đã tháo chưa), chân PWM, mass chung.  
 - **Nóng, hụt áp** → pin yếu hoặc L298N quá tải; giảm tốc, đổi driver TB6612FNG.  
-
----
-
-## 📎 8. Gửi bài
-- Upload `robot.ino` và `README.md` lên GitHub.  
-- Gửi link repo dạng: `https://github.com/<tên_user>/robot-balancing` cho giảng viên.
